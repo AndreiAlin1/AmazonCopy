@@ -153,7 +153,7 @@ document.querySelectorAll('.js-save-link')
         `.js-quantity-input-${productId}`
       );
       const newQuantity = Number(quantityInput.value);
-      console.log(newQuantity);
       updateQuantity(productId,newQuantity);
     });
   });
+//trebuie sa fac o functie care imi ia valoarea din input si dupa in save-link sa o apelez pentru a da refresh la cantitate in timp real
