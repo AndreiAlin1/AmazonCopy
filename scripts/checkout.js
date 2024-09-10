@@ -154,6 +154,7 @@ document.querySelectorAll('.js-save-link')
       );
       const newQuantity = Number(quantityInput.value);
       updateQuantity(productId,newQuantity);
+      updateCartQuantity();
     });
   });
 //trebuie sa fac o functie care imi ia valoarea din input si dupa in save-link sa o apelez pentru a da refresh la cantitate in timp real
