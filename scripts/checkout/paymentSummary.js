@@ -59,7 +59,7 @@ export function renderPaymentSummary() {
     const paymentSummaryContainer = document.querySelector('.js-payment-summary');
         paymentSummaryContainer.innerHTML = paymentSummaryHTML;
         updateCartQuantity1();
-        
+
 }
 
 function updateCartQuantity1() {
@@ -67,7 +67,7 @@ function updateCartQuantity1() {
     const itemsElement = document.querySelector('.js-items'); 
 
     if (itemsElement) {
-        itemsElement.innerHTML = `Items: ${cartQuantity}`;
+        itemsElement.innerHTML = `Items (${cartQuantity}):`;
     }
 }
 
